@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A reasonable form </h1>
+    </header>
+    <main>
+       <form>
+        <section>
+            <label for="">Your name:
+                <input type="text" placeholder="Name">
+            </label>
+            <label for="">Your email:
+                <input type="email" name="email" id="" placeholder="Email">
+            </label>
+           </section>
+           <!-- use only one choice with radio input -->
+           <section>
+            <fieldset>
+                <legend>Pick one pitha</legend>
+                <label for="">
+                    <input type="radio" name="pitha" id="">Chitoi
+                </label>
+                <label for="">
+                    <input type="radio" name="pitha" id="">Vapa
+                </label>
+                <label for="">
+                    <input type="radio" name="pitha" id="">Puri
+                </label>
+            </fieldset>
+           </section>
+           <!-- use checkbox one chose one or more option with label and checkbox input -->
+           <section>
+            <fieldset>
+                <legend>Pick one or more vorta</legend>
+                    <label for="">
+                        <input type="checkbox" name="sutki" id="">sutki
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="sorisha" id="">sorisha
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="aluvorta" id="">aluvorta
+                    </label>
+            </fieldset>
+           </section>
+           <!-- special instruction text with textarea -->
+           <section>
+            <fieldset>
+                <legend>Special instruction</legend>
+                <textarea name="" id="" cols="40" rows="12"></textarea>
+            </fieldset>
+           </section>
+           <input type="reset" value="Reset">
+           <input type="submit" value="Submit">
+       </form>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
